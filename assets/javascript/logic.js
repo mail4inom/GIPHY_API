@@ -29,10 +29,11 @@ $(document).ready(function () {
                 gifs.append(ratingDisplay, gifDisplay);
                 $("#giphys-view").prepend(gifs);
             }
+            
             $(".animate").on("click", function () {
 
                 var state = $(this).attr("data-state");
-
+    
                 if (state === "still") {
                     $(this).attr("src", $(this).attr("data-animate"));
                     $(this).attr("data-state", "animate");
@@ -45,6 +46,7 @@ $(document).ready(function () {
                 }
             });
         });
+     
     }
 
     function buttonMaker() {
