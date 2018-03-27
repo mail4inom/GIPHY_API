@@ -5,7 +5,7 @@ $(document).ready(function () {
     var animate;
 
     function displayGiphy() {
-        // $("#giphys-view").empty();
+        $("#giphys-view").empty();
         var topics = $(this).attr("data-name");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topics + "&api_key=8gTAnRtd6rOl1UFJ17AYYmzMBV2rK2fv&limit=12"
         $.ajax({

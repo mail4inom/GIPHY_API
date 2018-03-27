@@ -4,9 +4,14 @@ body{
     color: #ffffff;
     margin-bottom: 100px;
 }
+#instruction{
+    color:#57636e;
+    font-size: 18px;
+     text-align: center;
+}
 .gif {
     height: 40px;
-    width: 100px;
+    width: 120px;
     font-size: 16px;
     border-radius: 10px;
     margin: 0px 0px 10px 10px;
