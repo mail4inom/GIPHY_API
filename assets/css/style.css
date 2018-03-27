@@ -37,3 +37,50 @@ img{
     border-bottom-right-radius: 30px;
     border: 5px solid #ffffff;
 }
+h1{
+    text-align: center;
+}
+
+
+  @media screen and (max-width:640px){
+    #guide{
+        font-size: 16px;
+      }
+      #instruction{
+        font-size: 14px;
+      }
+      .gif{
+        width: auto;
+        height: auto;
+    }
+    
+      
+  }
+  @media screen and (max-width:414px){
+    #guide{
+        font-size: 16px;
+      }
+      #instruction{
+        font-size: 14px;
+      }
+      .gif{
+          width: auto;
+          height: auto;
+      }
+       
+  }
+  
+  @media screen and (max-width:360px){
+    #guide{
+      font-size: 16px;
+    }
+    #instruction{
+      font-size: 14px;
+    }
+    .gif{
+        width: auto;
+        height: auto;
+    }
+   
+  }
+  
